@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+.nav
+{
+     display: flex;
+     justify-content: space-around;
+     background-color: #0B9586;
+     align-items: center;
+     padding-block: 0.5em;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav ul li{
+    margin-left: 25px;
+}
+.nav ul li:not(:first-child):hover,.nav ul li:nth-child(1){
+    
+   padding-inline: 0.9rem;
+   padding-block:0.4rem;
+   border-radius: 0.3rem;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.nav ul li a{
+    color: white;
+}
+
+.call {
+    display: flex;
+    flex-direction:column;
+    color: white;
+    text-align: right;
+}
+
+.nav img{
+    width: 6rem;
+}
+
+.hero{
+    height:95vh;
+    background-image: url("solar-panels-meadow_1.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-inline: 11rem;
+}
+.counter {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 5rem;
+}
+.counter .one{
+  width: 5rem;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.877);
+  margin-left: 1.5rem;
+}
+.counter .two{
+width: 5.5rem;
+height: 2px;
+margin-right: 1.5rem;
+background-color: rgba(0, 0, 0, 0.486);
+}
+.text
+{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+.text h1{
+    width: 60%;
+  font-size: 3.1rem;
+  
+}
+.text
+.button{
+    display: flex;
+    gap: 0.5rem;
+
+    
+}
+.text p{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button button,.call-back{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+   
+}
+.button button:nth-child(2),.call-back{
+    background-color: #FFBB1C;
+    border-color:#FFBB1C ;
+    
+}
+.button button:nth-child(1){
+    background-color: #3CAB90;
+    border-color: #3CAB90;
+  color: white;
+}
+.friend{
+    padding-inline: 10rem;
+    display: flex;
+    gap: 2rem;
+    margin-block: 4rem;
+}
+.textt{
+    display: flex;
+    gap: 3rem;
+    color: #101828;
+    flex-direction: column;
+}
+.textt h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 3rem;
+
+
+}
+.textt p{
+    color: #475467;
+    line-height: 24px;
+}
+.textt p span{
+    color: #84BD3A;
+    margin-right: 0.2rem;
+}
+.solar{
+    background-color: #FFBB1C;
+    color: #2A3334;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -39rem;
+    right: 28rem;
+    width: 14rem;
+    
+
+
+}
+.san{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    color: #101828;
+    font-weight: 600;
+}
+.friend img:nth-child(2){
+        width: 90%;
+        height: auto;
+}
+
+.power
+{
+    background-image: url("8116_1.png");
+    width: 100%;
+    height: 70vh;
+    margin-block: 4rem;
+    background-size: cover;
+    padding-inline: 10rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+
+}
+.power h1{
+    font-size: 2.4rem;
+}
+.power p{
+    width: 60%;
+    font-size: 1.3rem;
+}
+.call-back{
+    width: 15%;
+}
+
+.solar-kits{
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-inline: 11rem;
+ }
+ .solar-kits .text1{
+    width: 60%;
+ }
+ .solar-kits .con{
+        display:flex ;
+        
+ }
+ .solar-kits h1{
+    font-size: 3.1rem;
+ }
+ .solar-kits p{
+    font-size: 1.8rem;
+ }
