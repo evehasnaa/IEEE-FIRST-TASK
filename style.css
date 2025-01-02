@@ -499,6 +499,7 @@ footer{
 .cont ul li:nth-child(1){
 margin-left: 0;
 }
+
 .foot3 {
     border-top: 1px solid #dad5d579;
     padding-top: 1rem;
@@ -507,5 +508,35 @@ margin-left: 0;
     justify-content: space-between;
 
 }
+.foot3 p{
+    margin-block: 0.5rem;
+    font-size: 0.9rem;
+}
 
+input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #283646;
+}
+.foot2 button{
+    padding: 8px 13px;
+    background-color:#FFBB1C;
+    border: 1px solid #FFBB1C;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    
+}
 
+  
+  .foot2 button:hover {
+    background-color: #be8f1f7a; 
+  }
+  .foot2{
+    margin-top: 23px;
+  }
+  .foot2 p{
+    margin-block: 0.1rem;
+    font-size: 0.8rem;
+  }
