@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    
+    text-decoration: none;
+    list-style: none;
+
+}
+.nav
+{
+     display: flex;
+     justify-content: space-around;
+     background-color: #0B9586;
+     align-items: center;
+     padding-block: 0.5em;
+}
+ ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+ ul li{
+    margin-left: 25px;
+}
+.nav ul li:not(:first-child):hover,.nav ul li:nth-child(1){
+    
+   padding-inline: 0.9rem;
+   padding-block:0.4rem;
+   border-radius: 0.3rem;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+ ul li a{
+    color: white;
+}
+
+.call {
+    display: flex;
+    flex-direction:column;
+    color: white;
+    text-align: right;
+}
+
+.nav img{
+    width: 6rem;
+}
+
+.hero{
+    height:95vh;
+    background-image: url("solar-panels-meadow_1.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-inline: 11rem;
+}
+.counter {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 5rem;
+}
+.counter .one{
+  width: 5rem;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.877);
+  margin-left: 1.5rem;
+}
+.counter .two{
+width: 5.5rem;
+height: 2px;
+margin-right: 1.5rem;
+background-color: rgba(0, 0, 0, 0.486);
+}
+.text
+{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+.text h1{
+    width: 60%;
+  font-size: 3.1rem;
+  
+}
+.text
+.button{
+    display: flex;
+    gap: 0.5rem;
+
+    
+}
+.text p{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button button,.call-back{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+   
+}
+.button button:nth-child(2),.call-back{
+    background-color: #FFBB1C;
+    border-color:#FFBB1C ;
+    
+}
+.button button:nth-child(1){
+    background-color: #3CAB90;
+    border-color: #3CAB90;
+  color: white;
+}
+.friend{
+    padding-inline: 10rem;
+    display: flex;
+    gap: 2rem;
+    margin-block: 4rem;
+}
+.textt{
+    display: flex;
+    gap: 3rem;
+    color: #101828;
+    flex-direction: column;
+}
+.textt h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 3rem;
+
+
+}
+.textt p{
+    color: #475467;
+    line-height: 24px;
+}
+.textt p span{
+    color: #84BD3A;
+    margin-right: 0.2rem;
+}
+.solar{
+    background-color: #FFBB1C;
+    color: #2A3334;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -39rem;
+    right: 28rem;
+    width: 14rem;
+    
+
+
+}
+.san{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    color: #101828;
+    font-weight: 600;
+}
+.friend img:nth-child(2){
+        width: 90%;
+        height: auto;
+}
+
+.power
+{
+    background-image: url("8116_1.png");
+    width: 100%;
+    height: 70vh;
+    margin-block: 4rem;
+    background-size: cover;
+    padding-inline: 10rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+
+}
+.power h1{
+    font-size: 2.4rem;
+}
+.power p{
+    width: 60%;
+    font-size: 1.3rem;
+}
+.call-back{
+    width: 15%;
+}
+
+.solar-kits{
+    
+    padding: 20px;
+    
+    
+    
+ }
+ .solar-kits .text1{
+    text-align: center;
+ }
+ .solar-kits .text1 h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+   
+ }
+ .solar-kits .text1 p{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #555;
+ }
+
+
+ .solar-kits h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+   
+
+ }
+ .solar-kits p{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #555;
+    display: flex;
+    align-items: center;
+
+
+ }
+
+ 
+ /*
+ .card1 h1, .card2 h2,.card3 h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    
+ }
+ .card1 p,.card2 p,.card3 hp{
+    font-size: 1.3rem;
+ }
+ .card2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+ }
+ .card3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+ }
+ .card3 h3{
+    left: 1rem;
+ }
+ .card3 p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 3rem;
+    margin-bottom: 10px;
+ }*/
+ .con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .card{
+    background-color: #fff;
+    padding-inline: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+ }
+ .card h2 {
+    font-size: 1.8rem;
+    
+    margin-bottom: 20px;
+ }
+ .card p{
+    font-size: 1rem;
+    margin-bottom: 17px;
+    color: #555;
+
+ }
+ 
+ .view-products {
+   
+    display: flex;
+    color: #3CAB90;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 20px 20px;
+    transition: color 0.5s ease;
+}
+.view-products:hover{
+    color:  #62c9afb4;
+}
+.rebairs{
+    background-image: url("8116_1_2.png");
+    
+    width: 100%;
+    height: 70vh;
+    margin-block: 4rem;
+    background-size: cover;
+    padding-inline: 10rem;
+    color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.rebairs h1{
+    font-size: 1.9rem;
+    color: white;
+    text-align: center;
+    
+}
+.rebairs p{
+    
+   
+    font-size: 0.9rem;
+    text-align: center;
+}
+.rebairs .text{
+    
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 30px 30px;
+    border-radius: 18px 18px;
+
+}
+
+.icon{
+    padding-inline: 20px;
+    flex-basis: 25%;
+}
+.icon h1{
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    
+}
+.icon p{
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+.card-catagory{
+    
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+.cards{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px ;
+    border: 1px #3cab8fe3 solid ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background-color: #3caba60a;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.cards:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+.cards h2{
+    font-size: 1rem;
+   
+    
+}
+
+.cards p{
+    font-size: 0.8rem;
+    
+    color: #555;
+   
+}
+.cards img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+.cards .view-products{
+    padding-block: 0;
+}
+.container{
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ gap: 1rem;
+ padding-inline: 11rem;
+
+}
+.value .text1 {
+    padding-inline: 11rem;
+    text-align: center;
+    margin-block: 4rem;
+}
+.value .cards img{
+   width: fit-content;
+   height: auto;
+}
+.what{
+    padding-inline: 11rem;
+    margin-block: 4rem;
+    display: grid;
+    grid-template-columns: repeat(  5 , 1fr);
+
+    gap: 3rem;
+
+}
+.what .text{
+    grid-column: 1/span 2;
+    
+
+}
+.what .text img{
+    width: 20%;
+    height: auto;
+}
+.what .text h2{
+    font-size: 2.1rem;
+    margin-block: 10px;
+    width: 80%;
+}
+
+.what .text p{
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 85%;
+
+}
+
+.what .say{
+    background-color:  #3caba60a;
+    padding: 20px;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 3/span 3;
+
+
+}
+.what .say .spa span{
+    color: #3CAB90;
+
+}
+.what .say p{
+  width: 30rem;
+
+    
+}
+.spa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hasnaa{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.name h4{
+  margin-bottom: 0.2rem;
+}
+footer{
+    background-color: #283646;
+    padding-inline: 11rem;
+    padding-block: 4rem;
+   
+    
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    color: white;
+
+}
+.cont ul li:nth-child(1){
+margin-left: 0;
+}
+.foot3 {
+    border-top: 1px solid #dad5d579;
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
